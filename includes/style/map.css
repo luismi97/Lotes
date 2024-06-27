@@ -1,0 +1,54 @@
+  #mapsection {
+    width: 50%;
+    height: auto;
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 2;
+  }
+
+
+
+  .test2:hover {
+    fill: rgb(80, 212, 53);
+    fill-opacity: 0.5;
+  }
+
+  .test:hover {
+    fill: rgb(216, 91, 91);
+    fill-opacity: 0.5;
+  }
+
+  .test3:hover {
+    fill: rgb(240, 230, 92);
+    fill-opacity: 0.5;
+  }
+
+  .test2 {
+    fill-opacity: 0.1
+  }
+
+  .test {
+    fill-opacity: 0.1
+  }
+
+  .test3 {
+    fill-opacity: 0.1
+  }
+
+  rect {
+    fill: #1da1f2;
+  }
+
+  rect:hover {
+    fill: rgb(86, 86, 86);
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+  }
+
+  rect.test:hover {
+    fill: rgb(86, 86, 86);
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+  }
